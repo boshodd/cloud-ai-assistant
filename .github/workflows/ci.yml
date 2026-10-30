@@ -6,7 +6,7 @@ on:
     branches: [main]
 
 permissions:
-  contents:read
+  contents: read
 
 jobs:
   test:
@@ -21,7 +21,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version:"3.13"
+          python-version: "3.13"
 
       - name: Install dependencies
         run: |
